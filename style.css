@@ -58,3 +58,9 @@ img{
 .menu ul li a:hover::after{
     background-color: #EE5A24;
 }
+.menu-icon{
+
+}
+.menu-icon span{
+    color: #fff;
+}
