@@ -1,3 +1,25 @@
 @media(max-width:919px){
     .menu{display: none;}
+    .menu-icon{
+        display: flex;
+        width: 75%;
+        justify-content: flex-end;    
+    }
+
+    .menu-icon span{
+        border: 1px solid #fff;
+        padding: 5px 10px;
+    }
+
 }
+
+
+
+
+@media(max-width:575px){
+
+    .logo{
+        width: 20%;
+    }
+}
+

@@ -18,7 +18,7 @@ img{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 100vh;
+    padding: 15px 0;
 }
 .container{
     width: 90%;
@@ -28,7 +28,7 @@ img{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 0;
+    
 }
 .logo{
     width: 15%;
@@ -59,8 +59,24 @@ img{
     background-color: #EE5A24;
 }
 .menu-icon{
-
+    display: none;
 }
 .menu-icon span{
     color: #fff;
+}
+/*top end */
+
+.middle{
+    width: 45%;
+}
+.middle h1{
+    color: #fff;
+    font-size: 50px;
+}
+
+
+.middle a {
+    color: #fff;
+    border: 1px solid #EE5A24;
+    text-decoration: none;
 }
